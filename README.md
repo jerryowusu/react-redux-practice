@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ "React Redux" is a tutorial for practicing react redux concepts. It is a Single Page App (SPA) that allows 
 
-## Available Scripts
+![screenshot]()
 
-In the project directory, you can run:
+Our goal here is to Build a single page web application for book webs using the React library
 
-### `npm start`
+## Live Demo
+Click [here](https://jerryowusu.github.io/BookStore/) to view live demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features implemented so far are:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Project Setup with React Installations
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- React Testing Library
+- React Router v6
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The basic requirements for building the executable are:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthouse, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-### `npm run eject`
+# Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Cloning the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/jerryowusu/react-redux-practice.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting packages and dependencies
+To get all package modules required to build the project run:
+```
+npm install
+```
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Building 
 
-## Learn More
+To build the project run:
+```
+npm run build
+```
+after you run this successfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the program on a browser through a server run this command in your cli
+```
+npm start
+```
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+All source code files are licensed under the permissive zlib license
+(http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+- GitHub: [@jerryowusu](https://github.com/jerryowusu)
+- Twitter: [@jerryowusu11](https://twitter.com/jerryowusu11)
+- LinkedIn: [Jerry Owusu](https://www.linkedin.com/in/jerry-owusu/)
