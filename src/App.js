@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Switch, Route, Link,
+  BrowserRouter as Router, Switch, Route, NavLink,
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -17,14 +17,14 @@ function App() {
         </a>
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to="/tutorials" className="nav-link">
+            <NavLink to="/tutorials" className="nav-link">
               Tutorials
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/add" className="nav-link">
+            <NavLink to="/add" className="nav-link">
               Add
-            </Link>
+            </NavLink>
           </li>
         </div>
       </nav>
