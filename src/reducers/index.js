@@ -1,6 +1,15 @@
-import { combineReducers } from 'redux';
-import tutorials from './tutorials';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import tutorialReducer from './tutorials';
 
-export default combineReducers({
-  tutorials,
-});
+const initialState = {};
+const middleware = [thunk];
+
+const store = createStore(
+  tutorialReducer,
+  initialState,
+  composeWithDevTools(applyMiddleware(...middleware)),
+);
+
+export default store;
