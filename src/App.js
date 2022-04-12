@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Switch, Route, NavLink,
+  BrowserRouter as Router, Switch, Route, Link,
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -17,20 +17,20 @@ function App() {
         </a>
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
-            <NavLink to="/tutorials" className="nav-link">
+            <Link to="/tutorials" className="nav-link">
               Tutorials
-            </NavLink>
+            </Link>
           </li>
           <li className="nav-item">
-            <NavLink to="/add" className="nav-link">
+            <Link to="/add" className="nav-link">
               Add
-            </NavLink>
+            </Link>
           </li>
         </div>
       </nav>
       <div className="container mt-3">
         <Switch>
-          <Route exact path="/tutorials" component={TutorialsList} />
+          <Route exact path={['/', '/tutorials']} component={TutorialsList} />
           <Route exact path="/add" component={AddTutorial} />
           <Route path="/tutorials/:id" component={Tutorial} />
         </Switch>
